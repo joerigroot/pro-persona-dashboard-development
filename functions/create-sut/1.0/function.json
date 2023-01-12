@@ -1,0 +1,55 @@
+{
+	"description": "Create SUT",
+	"label": "Create SUT",
+	"category": "Security",
+	"icon": {
+		"name": "CreateIcon",
+		"color": "Green"
+	},
+	"options": [
+		{
+			"meta": {
+				"type": "Object"
+			},
+			"name": "sutInput",
+			"label": "Input for SUT",
+			"info": "Input for SUT"
+		},
+		{
+			"meta": {
+				"type": "Text"
+			},
+			"name": "userName",
+			"label": "User name",
+			"info": "User name for login"
+		},
+		{
+			"meta": {
+				"type": "Number"
+			},
+			"name": "expiresIn",
+			"label": "Expires in",
+			"info": "Number of seconds for SUT expiration"
+		},
+		{
+			"meta": {
+				"type": "Text"
+			},
+			"name": "secret",
+			"label": "Secret",
+			"info": "Secret"
+		},
+		{
+			"meta": {
+				"type": "Output",
+				"output": {
+					"type": "Text"
+				}
+			},
+			"name": "response",
+			"label": "Response containing SUT",
+			"info": "Response containing SUT"
+		}
+	],
+	"yields": "NONE"
+}
